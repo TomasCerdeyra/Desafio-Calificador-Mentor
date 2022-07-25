@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-family: 'League Spartan', sans-serif;;
+}
+
+.main_p{
+    color: hsl(217, 12%, 63%);
+    font-family: 'League Spartan', sans-serif;;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.ContenedorButtons{
+    background-color: red;
+}
+.button{
+    border-radius: 50%;
+    padding: 10px;
+}
+
